@@ -1,0 +1,32 @@
+# ── Python ──────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.idea/
+.vscode/
+
+# ── 配置：config.toml 含 API 密钥，不入库 ──────────────
+# 模板见 config.example.toml
+config.toml
+
+# ── 本地运行数据 ────────────────────────────────────────
+saves/
+logs/
+
+# ── 工具目录 ────────────────────────────────────────────
+.workbuddy/
+
+# ── 测试与验证产物 ──────────────────────────────────────
+smoke_test.py
+TC*.log
+*.log
+storyshell_playtest_log.md
+verification_*.md
+verification_test_plan*.md
+
+# ── 开发过程文档 ────────────────────────────────────────
+HANDOFF.md
+BLOG_StoryShell.md
+STORYSHELL_PRODUCT_BOOK.md

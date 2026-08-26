@@ -1,0 +1,13 @@
+# 复制本文件为 config.toml 并填入 api_key 后运行：
+#   cp config.example.toml config.toml
+[api]
+base_url = "https://api.deepseek.com/v1"   # 示例：DeepSeek；换服务只改这里
+api_key = "sk-..."                          # 你的 API key
+model = "deepseek-chat"
+
+[game]
+json_mode = false        # 服务支持 response_format 时开 true
+history_rounds = 12      # 最近 K 轮原文保留数
+max_saves = 20           # 每剧本存档上限
+scripts_dir = "scripts"
+saves_dir = "saves"
